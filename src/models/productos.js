@@ -15,9 +15,9 @@ class Productos {
     this.id += 1;
     const producto = {
       id: this.id,
-      title,
-      price,
-      thumbnail,
+      title: title,
+      price: price,
+      thumbnail: thumbnail,
     };
     this.productos.push(producto);
     return producto;

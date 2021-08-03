@@ -1,8 +1,8 @@
 /* eslint-disable import/extensions */
 /* eslint-disable no-console */
 import express from 'express';
-import routerProductos from './routes/productos_routes.js';
 import path from 'path';
+import routerProductos from './routes/productos_routes.js';
 
 // Servidor
 const PORT = 8080;
